@@ -2,13 +2,15 @@
   <div>
     <header class="main-header">
       <div>
-          <a href="" class="main-header__brand">uHost</a>
-        </div>
+        <a href="" class="main-header__brand">uHost</a>
+      </div>
       <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item"><a href=""> Package </a></li>
           <li class="main-nav__item"><a href=""> Customers </a></li>
-          <li class="main-nav__item"><a href=""> Start Hosting </a></li>
+          <li class="main-nav__item main-nav__item--cta">
+            <a href="">Start Hosting</a>
+            </li>
         </ul>
       </nav>
     </header>
