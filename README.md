@@ -1,10 +1,10 @@
-# nuxtjs-css-sample1
+# NuxtJS CSS Sample
 
 > My fine Nuxt.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
