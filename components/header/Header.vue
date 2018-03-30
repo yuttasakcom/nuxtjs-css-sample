@@ -1,13 +1,13 @@
 <template>
   <header class="main-header">
     <div>
-        <a href="" class="main-header__brand">uHost</a>
-      </div>
+      <nuxt-link to="/" tag="a" class="main-header__brand">uHost</nuxt-link>
+    </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
-        <li class="main-nav__item"><a href="">Package</a></li>
-        <li class="main-nav__item"><a href="">Order</a></li>
-        <li class="main-nav__item main-nav__item--cta"><a href="">Start Hosting</a></li>
+        <nuxt-link to="/" tag="li" class="main-nav__item"><a>Package</a></nuxt-link>
+        <nuxt-link to="/" tag="li" class="main-nav__item"><a>Order</a></nuxt-link>
+        <nuxt-link to="/" tag="li" class="main-nav__item main-nav__item--cta"><a>Start Hosting</a></nuxt-link>
       </ul>
     </nav>
   </header>
@@ -47,13 +47,6 @@
 .main-nav__item {
   display: inline-block;
   margin: 0 16px;
-}
-
-.main-nav__item--cta a {
-  color: white;
-  background: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
 }
 
 .main-nav__item--cta a:hover,
